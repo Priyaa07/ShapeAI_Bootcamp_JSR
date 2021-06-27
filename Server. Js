@@ -9,3 +9,34 @@ linkedin: '',
 facebook: '',
 instagram: ''
 }
+nextStep = () => {
+
+const {step} = this.state;
+
+this.setState ({
+
+step: step + 1,
+
+});
+
+};
+
+prevStep = () => {
+
+const {step} = this.state;
+
+this.setState ({
+
+step: step - 1,
+
+});
+
+};
+
+handleChange = ({target: {value, name}}) => {
+
+this.setState ({[name]: value});
+
+};
+
+• Build your first component, let's say "Profile" componen
