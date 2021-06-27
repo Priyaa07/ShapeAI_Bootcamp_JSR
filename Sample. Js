@@ -1,0 +1,58 @@
+<Paper className={classes.padding}>
+
+<Card>
+
+<CardHeader title="Education Details" />
+
+</Card>
+
+<CardContent>
+
+<div className={classes.margin}>
+
+<Grid container spacing={2} alignItems="center" lg={12}>
+<Grid item md={4} sm={12} xs={12} lg={4}>
+
+<TextField
+
+margin="dense"
+
+variant="outlined"
+
+name="college"
+
+label="College/University"
+
+style={{width: '80%'}}
+
+required
+
+value={values.college}
+
+onChange={this.props.handleChange}
+
+InputProps={{
+
+endAdornment: (
+
+<InputAdornment position="start">
+
+<SchoolIcon />
+
+</InputAdornment>
+
+),
+
+}}
+
+/>
+
+</Grid>
+
+</Grid>
+
+</div>
+
+</CardContent>
+
+</Paper>
