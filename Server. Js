@@ -39,4 +39,4 @@ this.setState ({[name]: value});
 
 };
 
-• Build your first component, let's say "Profile" componen
+• Build 
