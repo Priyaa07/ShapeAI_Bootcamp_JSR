@@ -1,0 +1,40 @@
+`
+
+<html>
+
+<body>
+
+<div class="rela-block caps greyed">Education</div>
+
+<h3 class="mb-0">${college}</h3>
+
+<p class="text-muted light mt-0 mb-1">${fromyear1}<span
+
+class="mx-2">to</span>${toyear1}</p>
+
+<p class="justified mt-0 mb-1" style="font-size:
+
+17px;">${qualification1}</p>
+<p class="justified mt-0 mb-3" style="font-size:
+
+17px;">${description1}</p>
+
+<h3 class="mb-0">${school}</h3>
+
+<p class="text-muted light mt-0 mb-1">${fromyear2}<span
+
+class="mx-2">to</span>${toyear2}</p>
+
+<p class="justified mt-0 mb-1" style="font-size:
+
+17px;">${qualification2}</p>
+
+<p class="justified mt-0 mb-1" style="font-size:
+
+17px;">${description2}</p>
+
+</body>
+
+</html>
+
+`;
